@@ -1,0 +1,6 @@
+{
+  "service_name": "recoverx-core",
+  "port": 8000,
+  "telemetry_enabled": true,
+  "cluster_nodes": ["node-01.local", "node-02.local"]
+}

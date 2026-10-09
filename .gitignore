@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+backend/venv/
+backend/env/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Next.js & Node
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/build/
+.npm
+*.tsbuildinfo
+
+# SQLite Database & Storage Data
+backend/data/*.db
+backend/data/*.db-journal
+backend/data/backups/
+backend/data/restore_staging/
+backend/data/restored_output/
+backend/logs/*.log
+
+# Environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# OS & Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
